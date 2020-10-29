@@ -47,12 +47,41 @@ table {
 	border-spacing: 0;
 }
 /* Add CSS styling here */
+/* color palette: main/bg: #e1f2fc secondary: #faf6b9 dark/text: #77158f */
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: #e1f2fc;
+}
+*{
+    border: 1px solid grey;
+}
+header{
+    background-color: #77158f;
+    color: #e1f2fc;
+}
+h1{
+    font-size: 5em;
+}
 nav{
-    display:flex;
+    display: flex;
+    justify-content: flex-start;
+    margin: 3%;
+    max-width:45%;
+}
+nav a{
+    background-color: darkslategrey;
+    color:#e1f2fc;
+    font-size: 2em;
+    text-decoration: none;
+    padding: 0 5%;
+
+    border: 2px solid #faf6b9;
 }
 .info{
-    display:flex;
+    display: flex;
 }
 .projects{
-    display:flex;
+    display: flex;
 }
