@@ -47,3 +47,12 @@ table {
 	border-spacing: 0;
 }
 /* Add CSS styling here */
+nav{
+    display:flex;
+}
+.info{
+    display:flex;
+}
+.projects{
+    display:flex;
+}
