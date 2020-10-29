@@ -53,6 +53,7 @@ html{
 }
 body{
     background-color: #e1f2fc;
+    font-size: 2em;
 }
 *{
     border: 1px solid grey;
@@ -76,11 +77,27 @@ nav a{
     font-size: 2em;
     text-decoration: none;
     padding: 0 5%;
-
     border: 2px solid #faf6b9;
 }
 .info{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.infoText{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 55%;
+}
+.mainPhoto img{
+    max-width: 80%;
+    padding: auto;
+}
+.mainPhoto{
+    margin: auto;
+    padding: 0 auto;
+    max-width:35%;
 }
 .projects{
     display: flex;
