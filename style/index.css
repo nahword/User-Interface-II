@@ -55,9 +55,6 @@ body{
     background-color: #e1f2fc;
     font-size: 2em;
 }
-*{
-    border: 1px solid grey;
-}
 header{
     background-color: #77158f;
     color: #e1f2fc;
@@ -103,15 +100,35 @@ nav a{
     align-items: center;
 }
 .projects div{
-    width:20%;
-    margin: 1% auto;
+    width:24%;
+    margin: 2% auto;
 }
 .projects img{
     width:100%;
+    margin: 2%;
 }
 .projects p{
     text-align: center;
 }
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #77158f;
+}
+footer h2{
+    font-size: 3em;
+    color: #e1f2fc;
+    text-align: center;
+}
+footer a{
+    font-size: 2em;
+    background-color: #e1f2fc;
+    text-decoration: none;
+    margin: 1% auto;
+    color: #77158f;
+    border: 2px solid #faf6b9;
+}
+
 /* .image-container img{
     width: x%
     delete hight
