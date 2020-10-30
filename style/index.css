@@ -87,18 +87,37 @@ nav a{
 .infoText{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     max-width: 55%;
 }
 .mainPhoto img{
     max-width: 80%;
-    padding: auto;
 }
 .mainPhoto{
-    margin: auto;
-    padding: 0 auto;
     max-width:35%;
 }
 .projects{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 }
+.projects div{
+    width:20%;
+    margin: 1% auto;
+}
+.projects img{
+    width:100%;
+}
+.projects p{
+    text-align: center;
+}
+/* .image-container img{
+    width: x%
+    delete hight
+}
+.image-container div{
+    margin:
+    width
+    ;
+} */
