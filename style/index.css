@@ -144,6 +144,7 @@ a:hover{
 }
 .projects p{
     text-align: center;
+    font-size: 2em;
 }
 footer{
     display: flex;
@@ -158,6 +159,7 @@ footer h2{
 footer a{
     margin: 1% auto;
     padding-top:1%;
+    max-width:33%;
 }
 
 /* media queries: 800px and 500px */
@@ -165,8 +167,23 @@ footer a{
     header{
         max-width:100%;
     }
+    nav{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+    nav > *{
+        margin: 0.5% auto;
+        width: 30%;
+    }
     h1{
         font-size: 2.5em;
+        text-align: center;
+    }
+    h2{
+        font-size: 2em;
     }
     a{
         font-size: 1.5em;
@@ -189,6 +206,9 @@ footer a{
     }
     .projects div{
         width:45%;
+    }
+    .projects p{
+        font-size: 1.5em;
     }
 }
 /* end 800px media */
