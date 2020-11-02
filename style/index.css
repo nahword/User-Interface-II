@@ -192,5 +192,9 @@ footer a{
     }
 }
 /* end 800px media */
-@media(max-width:500px){}
+@media(max-width:500px){
+    .projects div{
+        width: 78%;
+    }
+}
 /* end 500px media */
