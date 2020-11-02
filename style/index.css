@@ -48,12 +48,19 @@ table {
 }
 /* Add CSS styling here */
 /* color palette: main/bg: #e1f2fc secondary: #faf6b9 dark/text: #77158f */
+*{
+    box-sizing:border-box;
+    max-width:100%;
+}
 html{
     font-size: 62.5%;
+    font-family:'Neuton', serif;
+    font-weight: 700;
 }
 body{
     background-color: #e1f2fc;
-    font-size: 2em;
+    font-size: 1.6rem;
+    max-width: 100%;
 }
 header{
     background-color: #77158f;
@@ -61,22 +68,31 @@ header{
 }
 h1{
     font-size: 5em;
+    margin-left: 2.5%;
+    font-weight: 800;
 }
 nav{
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     margin: 3%;
-    max-width:45%;
+    padding: 0 3%;
+    width: 85%;
 }
-nav a{
+a{
     background-color: darkslategrey;
     color:#e1f2fc;
     font-size: 2em;
     text-decoration: none;
     padding: 0 5%;
     border: 2px solid #faf6b9;
+    border-radius: 15px;
+    transition: 1s;
+}
+h2{
+    font-size: 2.5em;
 }
 .info{
+    width:100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -84,14 +100,33 @@ nav a{
 .infoText{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    max-width: 55%;
+    justify-content: space-evenly;
+    width: 43%;
 }
-.mainPhoto img{
+.infoText > *{
+    margin: 2% 0;
+}
+.infoText p{
+    font-size:1.5em;
     max-width: 80%;
 }
 .mainPhoto{
-    max-width:35%;
+    width: 45%;
+}
+.mainPhoto img{
+    width: 85%;
+    margin: 2%;
+}
+.button{
+    text-align:center;
+    width: 60%;
+    padding-bottom: 1.5%;
+    transition: .75s;
+}
+a:hover{
+    color:darkslategrey;
+    background-color:#e1f2fc;
+    border: 2px solid #faf6b9;
 }
 .projects{
     display: flex;
@@ -121,12 +156,8 @@ footer h2{
     text-align: center;
 }
 footer a{
-    font-size: 2em;
-    background-color: #e1f2fc;
-    text-decoration: none;
     margin: 1% auto;
-    color: #77158f;
-    border: 2px solid #faf6b9;
+    padding-top:1%;
 }
 
 /* .image-container img{
